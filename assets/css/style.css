@@ -152,12 +152,8 @@ header {
 }
 
 #hero .slider-item-content h2 {
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 500;
-}
-
-#hero .slider-item-content p {
-  font-size: 16px;
 }
 
 .video-wrapper iframe {
