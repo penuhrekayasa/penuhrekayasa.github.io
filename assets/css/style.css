@@ -1,0 +1,248 @@
+body {
+  font-family: "Monstserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10rem;
+}
+
+#topbar {
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+}
+
+.top-contact,
+.sosmed {
+  list-style: none;
+  padding: 0;
+}
+
+#topbar li {
+  display: inline-block;
+}
+
+#topbar li a {
+  color: #fff;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+#topbar li a i {
+  color: rgb(189, 128, 38);
+  margin-right: 5px;
+}
+
+#topbar .sosmed li a {
+  padding: 0 3px;
+}
+
+#topbar .sosmed li a i {
+  color: #fff;
+}
+
+/* header */
+
+header {
+  padding: 30px 0;
+}
+
+.brand {
+  display: flex;
+}
+
+.brand img {
+  margin-right: 20px;
+}
+
+.brand .brand-name h1 {
+  font-size: 25px;
+  color: #15477a;
+  text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+  font-size: 18px;
+  font-family: Raleway, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888;
+}
+
+.searchbox-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.searchbox {
+  width: 100%;
+}
+
+.btn.btn-warning {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn.btn-warning:hover {
+  background-color: #e6a141;
+}
+
+/* Nav */
+
+.navbar {
+  padding: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-bottom: rgb(189, 128, 38) solid 5px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.active {
+  background-color: rgb(189, 128, 38);
+}
+
+/* slider / hero */
+
+#hero {
+  position: relative;
+}
+
+#hero-slider-nav .owl-prev,
+#hero-slider-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  border: none;
+  background-color: #f0ad4e;
+  color: #15477a;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 20px;
+  transition: background-color 0.2s;
+}
+
+#hero-slider-nav .owl-prev {
+  left: 0;
+  border-radius: 0 50px 50px 0;
+}
+
+#hero-slider-nav .owl-next {
+  right: 0;
+  border-radius: 50px 0 0 50px;
+}
+
+#hero-slider-nav .owl-prev:hover,
+#hero-slider-nav .owl-next:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+#hero .slider-item-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  text-align: center;
+  font-family: Raleway, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 50%;
+}
+
+#hero .slider-item-content h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#hero .slider-item-content p {
+  font-size: 16px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 115%;
+}
+
+/* sambutan */
+
+#sambutan {
+  margin: 60px 0;
+}
+
+#sambutan h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+#sambutan h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#sambutan p {
+  font-size: 14px;
+  font-family: Raleway, sans-sherif;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+
+#content-body{
+max-height: 200px;
+margin-bottom: 10px;
+overflow:hidden;
+}
+
+.expand{
+max-height: none !important;
+overflow: hidden !important;
+}
+
+#btn-read-more:hover{
+opacity:0.8;
+}
+
+/* read more button */
+
+.btn.btn-warning.more {
+  border-radius: 10px;
+}
+
+/* Prestasi */
+
+.section-title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.section-title h2 {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title h2:after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 3px;
+  background-color: #f2c808;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.section-item {
+  margin-bottom: 60px;
+}
+
+.section-item-meta i {
+  padding-right: 4px;
+}
